@@ -1,0 +1,35 @@
+.bg-love{
+    background-color: #fc86f2 !important;
+}
+.bg-love2{
+    background-color: #a986fc;
+}
+.bg-info{
+    background-color: #a969fd !important;
+}
+.bg-info2{
+    background-color: #7c8ef1;
+}
+#img-hanor{
+    width: 60%;
+    height: 60%;
+}
+#map{
+    width: 100% !important; 
+    height: 100% !important;
+    border-radius: 10px !important;
+}
+.nav{
+    position: sticky !important;
+}
+h1, h2, h3{
+    font-family: 'angelfaceregular';
+    font-size: 80px;
+}
+#bg-img1{
+    background-image: url(../img/lavendel.jpeg); 
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover; 
+    height: 40vh;
+}
