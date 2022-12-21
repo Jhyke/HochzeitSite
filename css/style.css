@@ -1,3 +1,52 @@
+/* -------------------------- */
+/* Index.html buttons */
+
+#beginBG{
+    width: 100vw;
+    height: 100vh;
+    background-image: url(../img/lavendel.jpeg); 
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover; 
+}
+#beginBtns{
+    width: 100vw;
+    height: 20vh;
+    padding-top: 80vh;
+    font-family: 'angelfaceregular';
+}
+#beginBtns a button{
+    width: 150px;
+    color: white;
+    font-size: 35px;
+    padding: 0;
+}
+
+#beginBtns a{
+    color: #fc86f2;
+    text-decoration: none;
+    font-size: 50px;
+}
+
+/* -------------------------- */
+/* Slideshow */
+
+/* Slideshow container */
+#slideShow{
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover; 
+    height: 60vh;
+    width: 100vw;
+}
+
+#slideShowContainer{
+    padding: 0 !important;
+}
+
+/* -------------------------- */
+/* Background colors */
+
 .bg-love{
     background-color: #fc86f2 !important;
 }
@@ -10,15 +59,10 @@
 .bg-info2{
     background-color: #7c8ef1;
 }
-#img-hanor{
-    width: 60%;
-    height: 60%;
-}
-#map{
-    width: 100% !important; 
-    height: 100% !important;
-    border-radius: 10px !important;
-}
+
+/* -------------------------- */
+/* General styling */
+
 .nav{
     position: sticky !important;
 }
@@ -32,4 +76,13 @@ h1, h2, h3{
     background-position: center;
     background-size: cover; 
     height: 40vh;
+}
+
+/* -------------------------- */
+/* Map styling */
+
+#map{
+    width: 100% !important; 
+    height: 100% !important;
+    border-radius: 10px !important;
 }
