@@ -16,7 +16,7 @@
         <!-- SlideShow -->
         <section id="slideShowContainer" class="bg-love text-light p-5 text-center text-lg-start">
             <div id="slideShow">
-
+            
             </div>
         </section>
 
@@ -25,12 +25,13 @@
             <div class="container" >
                 <div class="d-lg-flex align-items-center justify-content-between">
                     <div>
-                        <h1>Willkommen auf unserer Hochzeitsseite</h1>
+                        <h1>Liebe Gäste!</h1>
                         <p class="lead my-5">
-                            Vielen Dank, dass Sie den Weg zu unserer Hochzeitsseite gefunden haben. Hier findet ihr alle Informationen 
-                            rund um die Hochzeit und habt die Möglichkeit Fragen zu stellen. Lassen Sie uns im Reaktion wissen, 
-                            was wir wissen müssen.
+                            Zu unsere Hochzeit am 23 September laden wir euch ins schöne Weinviertel ein!<br>
+                            Wir freuen uns darauf unsere Tag mit euch zu feiern.<br>
+                            Gebt uns bitte zeit nah bescheid, ob ihr kommen könnt.
                         </p>
+                        <h4>Hannah & Igor</h4>
                     </div>
                 </div>
             </div>
@@ -39,7 +40,7 @@
         <!-- Navbar -->
         <nav class="navbar navbar-expand-md sticky-top bg-love navbar-dark py-1">
             <div class="container">
-                <a href="#" class="navbar-brand">Hochzeit Hannah & Igor</a>
+                <a href="#" class="navbar-brand"><h4>Hochzeit Hannah & Igor</h4></a>
 
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navmenu">
                     <span class="navbar-toggler-icon"></span>
@@ -48,112 +49,171 @@
                 <div class="collapse navbar-collapse" id="navmenu">
                     <ul class="navbar-nav ms-auto">
                         <li class="nav-item">
-                            <a href="#info" class="nav-link">Information</a>
+                            <a href="#location" class="nav-link">Location</a>
                         </li>
                         <li class="nav-item">
-                            <a href="#food" class="nav-link">Essen</a>
+                            <a href="#day" class="nav-link">Tagesablauf</a>
                         </li>
                         <li class="nav-item">
-                            <a href="#contact" class="nav-link">Ansprechpartner</a>
+                            <a href="#reaction" class="nav-link">Reaktion</a>
                         </li>
                         <li class="nav-item">
-                            <a href="#" data-bs-toggle="modal" data-bs-target="#react" class="nav-link">Reaktion</a>
+                            <a href="#sleep" class="nav-link">Unterkunfte</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#wish" class="nav-link">Wünsche</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#contact" class="nav-link">Organisatoren</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#faq" class="nav-link">FAQ</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#sticker" class="nav-link">Eine bitte noch</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#upload" class="nav-link">Fotohochlade</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="nederlands.html" class="nav-link"><img src="img/dutch.png"></a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="deutsch.html" class="nav-link"><img class="activeImg" src="img/austria.png"></a>
                         </li>
                     </ul>
                 </div>
             </div>
         </nav>
 
-        <!-- Foto -->
-        <div class="bg-image" id="bg-img1"></div>
-
-        <!-- Info -->
-        <section id="info" class="bg-love2 text-light p-5">
-            <div class="container">
-                <h3 class="mb-3 text-center">
-                    Information
-                </h3>
-                <div class="row text-center g-3">
-                    <div class="col-md">
-                        <div class="card bg-info text-light">
-                            <div class="card-body text-center">
-                                <div class="h1 mb-3">
-                                    <i class="bi bi-binoculars"></i>
-                                </div>
-                                <h3 class="card-title mb-3">
-                                    Was ist zu tun
-                                </h3>
-                                <p class="card-text">
-                                    Auf diese location ist die Möglichkeit................. 
-                                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Doloremque minima quaerat necessitatibus atque unde corporis?
-                                </p>
-                            </div>
-                        </div>
+        <!-- Map -->
+        <section class="p-5 bg-love2 text-white" id="location">
+            <div class="container-fluid">
+                <div class="row g-4">
+                    <div class="col-sm">
+                        <h2 class="text-center mb-4">Lokation</h2>
+                        <ul class="list-group list-group-flush lead">
+                            <li class="list-group-item bg-love2 text-white">
+                                <span class="fw-bold">Straße: </span> Schlossstraße 1
+                            </li>
+                            <li class="list-group-item bg-love2 text-white">
+                                <span class="fw-bold">Address: </span> 3473 Hollabrunn
+                            </li>
+                            <li class="list-group-item bg-love2 text-white">
+                                <span class="fw-bold">Land: </span> Österreich
+                            </li>
+                            <li class="list-group-item bg-love2 text-white">
+                                <span class="fw-bold">Website: </span> 
+                                <a id="schlossWebsite" href="https://schlossmuehlbach.at/">https://schlossmuehlbach.at/</a>
+                            </li>
+                        </ul>
                     </div>
-                    <div class="col-md">
-                        <div class="card bg-info2 text-light">
-                            <div class="card-body text-center">
-                                <div class="h1 mb-3">
-                                    <i class="bi bi-house-door"></i>
-                                </div>
-                                <h3 class="card-title mb-3">
-                                    Übernachten
-                                </h3>
-                                <p class="card-text">
-                                    Wenn ihr gern übernachten will haben wir nächste hotels gefunden die ihr buchen könnte..........................
-                                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quia, consequatur? 
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md">
-                        <div class="card bg-info text-light">
-                            <div class="card-body text-center">
-                                <div class="h1 mb-3">
-                                    <i class="bi bi-gift"></i>
-                                </div>
-                                <h3 class="card-title mb-3">
-                                    Geschenken
-                                </h3>
-                                <p class="card-text">
-                                    Wenn ihr uns ein Geschenk mit brengen will, bitte wir es kein "echte" Blumen zusein. Auserhalb den wunsch,
-                                    weisen wir nicht was wir willen. Geld ist immer willkommen und gut zu verwenden für z.B. die Hochzeit ;)
-                                </p>
-                            </div>
+                    <div class="col-sm">
+                        <div id="map">
+                            <img src="img/Hochzeit_Karte.png">
                         </div>
                     </div>
                 </div>
             </div>
         </section>
 
-        <!-- Essen -->
-        <section id="food" class="p-5 bg-love2">
-            <div class="container text-white">
-                <div class="d-lg-flex align-items-center justify-content-between">
-                    <div class="p-3">
-                        <h2>Essen</h2>
-                        <p class="lead">
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam tenetur non obcaecati doloribus distinctio
-                             dolor minus voluptatem odio quae provident veniam deleniti eum autem repellat iure voluptas repellendus, ab ipsa.
-                        </p>
-                        <p class="lead">
-                            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ducimus ex accusantium nisi cupiditate perspiciatis. 
-                            Sint labore, voluptatem ab, esse a totam sunt harum similique modi maiores facilis praesentium nemo amet saepe 
-                            deserunt, beatae soluta dolores optio. Ducimus voluptatem temporibus incidunt quos rerum quia cupiditate ipsa 
-                            minus quam et, vero suscipit!
-                        </p>
+        <!-- Tagesablauf -->
+        <section class="p-5 bg-love text-white">
+            <div class="container-fluid">
+                <div class="row g-4">
+                    <div class="col-sm" id="day">
+                        <h2 class="text-center mb-4">Tagesablauf</h2>
+                        <div class="col-sm" id="timetable">
+                            <img src="img/Timetable_D.png">
+                        </div>
                     </div>
-                    <div>
-                        <img src="img/TestHochzeitMenu.jpg" class="img-fluid" alt="">
+                    
+                    <div class="col-sm" id="reaction">
+                            
+                        <!-- Reaction -->
+                        <h2 class="text-center mb-4 col">Reaktion</h2>
+                        <div class="p-5 bg-love text-white" id="react">
+                            <form action="https://formsubmit.co/hanorstompingall@gmail.com" method="POST" class="customRadio">
+                                <input type="hidden" name="_subject" value="Neue Hochzeit mail :3">
+                                <input type="hidden" name="_next" value="http://127.0.0.1:5500/deutsch.html">
+                                <input type="hidden" name="_captcha" value="false">
+                                
+                                <div class="form-outline mb-4">
+                                    <div class="form-check form-switch">
+                                        <label class="form-check-label" for="zuStimmen">
+                                            Hiermit sagen ich zu
+                                        </label>
+                                        <input class="form-check-input" type="checkbox" id="zuStimmen" name="zuStimmen" checked />
+                                    </div>
+                                </div>
+
+                                <div class="form-outline mb-4">
+                                    <input type="email" id="form4Example2" class="form-control" />
+                                    <label class="form-label" for="form4Example2">Email address</label>
+                                </div>
+
+                                <div class="form-outline mb-4">
+                                    <label for="address" class="col-form-label">Straße und Hausnummer: </label>
+                                    <input type="address" name="Address" class="form-control" required>
+
+                                    <div class="row mb-4">
+                                        <div class="col">
+                                            <div class="form-outline">
+                                                <label class="form-label" for="plz">PLZ: </label>
+                                                <input type="text" name="plz" id="plz" class="form-control" />
+                                            </div>
+                                        </div>
+                                        <div class="col">
+                                            <div class="form-outline">
+                                                <label class="form-label" for="stadt">Wohnort: </label>
+                                                <input type="text" name="stadt" id="stadt" class="form-control" />
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                
+                                <div class="form-outline mb-4">
+                                    <label for="anzahl" class="col-form-label">Mit wie viel kommt ihr? </label>
+                                    <select class="custom-select form-control" name="Amount" id="inputGroupSelect01" required>
+                                        <option value="1">Eins</option>
+                                        <option value="2">Zwei</option>
+                                        <option value="3">Drei</option>
+                                        <option value="4">Vier</option>
+                                        <option value="5">Fünf</option>
+                                    </select>
+                                </div>
+
+                                <div class="form-outline mb-4">
+                                    <label class="form-label" for="name">Alle Namen der Gäste</label>
+                                    <input type="text" id="name" name="NameGäste" class="form-control" />
+                                </div>
+
+                                <div class="form-outline mb-4">
+                                    <label class="form-label" for="message">Willst du sonst noch etwas anmerken, z.B. ernährungspräferenz</label>
+                                    <textarea class="form-control" id="message" name="Nachricht" rows="4"></textarea>
+                                </div>
+
+                                <button type="submit" class="btn bg-love2 btn-block mb-4">Senden</button>
+                            </form>
+                        </div>
                     </div>
                 </div>
             </div>
         </section>
 
-        <!-- Contact -->
-        <section id="contact" class="p-5 bg-love">
+        <section id="sleep" class="bg-love2 text-light p-5">
             <div class="container">
-                <h2 class="text-center text-white">Unsere Kontaktpersonen</h2>
+                <h2 class="mb-3 text-center">
+                    Unterkunfte
+                </h2>
+            </div>
+
+        </section>
+       
+         <!-- Contact -->
+         <section id="contact" class="p-5 bg-love">
+            <div class="container">
+                <h2 class="text-center text-white">Organisatoren</h2>
                 <p class="lead text-center text-white mb-5">Hier sind die Ansprechpartner, die Ihre Fragen beantworten können.</p>
                 <div class="row g-4 text-white">
                     <div class="col-md-6 col-lg-3">
@@ -212,32 +272,83 @@
             </div>
         </section>
 
-        <!-- Map -->
-        <section class="p-5 bg-love2 text-white">
-            <div class="container-fluid">
-                <div class="row g-4">
-                    <div class="col-sm">
-                        <h2 class="text-center mb-4">Lokation</h2>
-                        <ul class="list-group list-group-flush lead">
-                            <li class="list-group-item bg-love2 text-white">
-                                <span class="fw-bold">Straße: </span> Schlossstraße 1
-                            </li>
-                            <li class="list-group-item bg-love2 text-white">
-                                <span class="fw-bold">Address: </span> 3473 Hollabrunn
-                            </li>
-                            <li class="list-group-item bg-love2 text-white">
-                                <span class="fw-bold">Land: </span> Österreich
-                            </li>
-                            <li class="list-group-item bg-love2 text-white">
-                                <span class="fw-bold">Website: </span> https://schlossmuehlbach.at/
-                            </li>
-                        </ul>
+        <!-- FAQ -->
+        <section id="faq" class="bg-love2 text-light p-5">
+            <div class="container">
+                <h2 class="mb-3 text-center">
+                    FAQ
+                </h2>
+                <div class="row text-center g-3">
+                    <div class="col-md">
+                        <div class="card bg-info text-light">
+                            <div class="card-body text-center">
+                                <div class="h1 mb-3">
+                                    <i class="bi bi-binoculars"></i>
+                                </div>
+                                <h3 class="card-title mb-3">
+                                    Was ist zu tun
+                                </h3>
+                                <p class="card-text">
+                                    Auf diese location ist die Möglichkeit................. 
+                                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Doloremque minima quaerat necessitatibus atque unde corporis?
+                                </p>
+                            </div>
+                        </div>
                     </div>
-                    <div class="col-sm">
-                        <div id="map"></div>
+                    <div class="col-md">
+                        <div class="card bg-info2 text-light">
+                            <div class="card-body text-center">
+                                <div class="h1 mb-3">
+                                    <i class="bi bi-house-door"></i>
+                                </div>
+                                <h3 class="card-title mb-3">
+                                    Übernachten
+                                </h3>
+                                <p class="card-text">
+                                    Wenn ihr gern übernachten will haben wir nächste hotels gefunden die ihr buchen könnte..........................
+                                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quia, consequatur? 
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md">
+                        <div class="card bg-info text-light">
+                            <div class="card-body text-center">
+                                <div class="h1 mb-3">
+                                    <i class="bi bi-gift"></i>
+                                </div>
+                                <h3 class="card-title mb-3">
+                                    Geschenken
+                                </h3>
+                                <p class="card-text">
+                                    Wenn ihr uns ein Geschenk mit brengen will, bitte wir es kein "echte" Blumen zusein. Auserhalb den wunsch,
+                                    weisen wir nicht was wir willen. Geld ist immer willkommen und gut zu verwenden für z.B. die Hochzeit ;)
+                                </p>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
+        </section>
+        
+        <!-- Sticker schicken für stickermania -->
+        <section id="sticker" class="bg-love2 text-light p-5">
+            <div class="container">
+                <h2 class="mb-3 text-center">
+                    Eine bitte noch
+                </h2>
+            </div>
+
+        </section>
+        
+        <!-- Fotos hochladen -->
+        <section id="upload" class="bg-love text-light p-5">
+            <div class="container">
+                <h2 class="mb-3 text-center">
+                    Fotohochlade
+                </h2>
+            </div>
+
         </section>
 
         <!-- Footer -->
@@ -251,69 +362,7 @@
             </div>
         </footer>
 
-        <!-- Modal -->
-        <div class="modal fade" id="react" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" style="display: none;" aria-hidden="true">
-            <div class="modal-dialog">
-                <div class="modal-content">
-                    <div class="modal-header">
-                        <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
-                        <button type="button" class="btn-close" data-bs-dismiss="modal">
-                        </button>
-                    </div>
-                    <div class="modal-body">
-                        <p class="lead">Bitte füllen Sie dieses Format aus.</p>
-                        <form action="https://formsubmit.co/hanorstompingall@gmail.com" method="POST">
-                            <input type="hidden" name="_subject" value="Neue Hochzeit mail :3">
-                            <input type="hidden" name="_next" value="http://127.0.0.1:5500/index.html">
-                            <input type="hidden" name="_captcha" value="false">
-                            
-                            <label for="first-name" class="col-form-label">Vorname: </label>
-                            <input type="text" name="First-name" class="form-control" required>
-
-                            <label for="last-name" class="col-form-label">Nachname: </label>
-                            <input type="text" name="Last-name" class="form-control" required>
-
-                            <label for="email" class="col-form-label">Was ist dein email? </label>
-                            <input type="email" name="Email" class="form-control" required>
-
-                            <label for="anzahl" class="col-form-label">Mit wie viel kommt ihr? </label>
-                            <input type="text" name="Amount" class="form-control" required>
-
-                            <label for="essen" class="col-form-label">Was willst du zum haubtessen? </label>
-                            <input type="text" name="Food" class="form-control mb-3" required>
-
-                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                            <button type="submit" class="btn bg-love text-white">Antwort senden</button>
-                        </form>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="modal fade" id="reactResponse" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" style="display: none;" aria-hidden="true">
-            <div class="modal-dialog">
-                <div class="modal-content">
-                    <div class="modal-header">
-                        <h5 class="modal-title" id="exampleModalLabel">Danke!</h5>
-                        <button type="button" class="btn-close" data-bs-dismiss="modal">
-                        </button>
-                    </div>
-                    <div class="modal-body">
-                        <p class="lead">Danke für dein Nachricht</p>
-                </div>
-            </div>
-        </div>
-
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
-        <script src='https://api.mapbox.com/mapbox-gl-js/v2.3.1/mapbox-gl.js'></script>
-        <script>
-            mapboxgl.accessToken = 'pk.eyJ1Ijoiamh5a2UiLCJhIjoiY2t6Z3Nqb3cwMTRhbDJubzByZmI2Zmo1OSJ9.CI5TPfTG6Iyl0mfURbsYLQ';
-                var map = new mapboxgl.Map({
-                container: 'map',
-                style: 'mapbox://styles/mapbox/streets-v11',
-                center: [15.790389, 48.517278],
-                zoom: 15
-                });
-        </script>
         <script src="scripts/slideshow.js"></script>
     </body>
 </html>
