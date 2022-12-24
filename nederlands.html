@@ -9,6 +9,7 @@
         <link href='https://api.mapbox.com/mapbox-gl-js/v2.3.1/mapbox-gl.css' rel='stylesheet'>
         <link rel="stylesheet" href="css/font/stylesheet.css">
         <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/styles.css">
         <title>Bruiloft Hannah & Igor</title>
     </head>
     <body>
@@ -61,9 +62,6 @@
                             <a href="#sleep" class="nav-link">Slaapplaatsen</a>
                         </li>
                         <li class="nav-item">
-                            <a href="#wish" class="nav-link">Wensen</a>
-                        </li>
-                        <li class="nav-item">
                             <a href="#contact" class="nav-link">Organisatoren</a>
                         </li>
                         <li class="nav-item">
@@ -104,7 +102,7 @@
                             </li>
                             <li class="list-group-item bg-love2 text-white">
                                 <span class="fw-bold">Website: </span> 
-                                <a id="schlossWebsite" href="https://schlossmuehlbach.at/">https://schlossmuehlbach.at/</a>
+                                <a class="websiteLink" target="_blank" href="https://schlossmuehlbach.at/">https://schlossmuehlbach.at/</a>
                             </li>
                         </ul>
                     </div>
@@ -193,7 +191,7 @@
                                     <textarea class="form-control" id="message" name="Nachricht" rows="4"></textarea>
                                 </div>
 
-                                <button type="submit" class="btn bg-love2 btn-block mb-4">Versturen</button>
+                                <button type="submit" class="btn bg-love2 btn-block mb-4 text-white">Versturen</button>
                             </form>
                         </div>
                     </div>
@@ -206,6 +204,63 @@
                 <h2 class="mb-3 text-center">
                     Slaapplaatsen
                 </h2>
+                <div class="row">
+                    <div class="col-md-6 col-lg-2">
+                        <div class="card bg-info card-style">
+                            <div class="card-body text-center">
+                                <h4 class="card-title mb-3">Marienschlössl Wiedendorf</h4>
+                                <p class="card-text">Afstand: ca. 4 km<br>
+                                    Link: <a class="websiteLink" target="_blank" href="https://www.marienschloessl.at">marienschloessl.at</a></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-2">
+                        <div class="card bg-info card-style">
+                            <div class="card-body text-center">
+                                <h4 class="card-title mb-3">Gästehaus Lösshof</h4>
+                                <p class="card-text">Afstand: ca. 7 km<br>
+                                    Link: <a class="websiteLink" target="_blank" href="https://www.urlaubambauernhof.at/de/hoefe/loesshof">urlaubambauernhof.at</a></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-2">
+                        <div class="card bg-info card-style">
+                            <div class="card-body text-center">
+                                <h4 class="card-title mb-3">Quartier35</h4>
+                                <p class="card-text">Afstand: ca. 8 km<br>
+                                    Link: <a class="websiteLink" target="_blank" href="https://www.quartier35.at">quartier35.at</a></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-2">
+                        <div class="card bg-info card-style">
+                            <div class="card-body text-center">
+                                <h4 class="card-title mb-3">Mehofer Neudeggerhof</h4>
+                                <p class="card-text">Afstand: ca. 8 km<br>
+                                    Link: <a class="websiteLink" target="_blank" href="https://www.mehofer.at/de/weingut.html?">mehofer.at</a></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-2">
+                        <div class="card bg-info card-style">
+                            <div class="card-body text-center">
+                                <h4 class="card-title mb-3">Hoglhof, Familie Svejda</h4>
+                                <p class="card-text">Afstand: ca. 11 km<br>
+                                    Link: <a class="websiteLink" target="_blank" href="https://www.schmidatal.at/unterkunft/hoglhof-familie-svejda/">schmidatal.at</a></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-2">
+                        <div class="card bg-info card-style">
+                            <div class="card-body text-center">
+                                <h4 class="card-title mb-3">Weingut Stopfer</h4>
+                                <p class="card-text">Afstand: ca. 12 km<br>
+                                    Link: <br> <a class="websiteLink" target="_blank" href="https://www.weingut-stopfer.at">weingut-stopfer.at</a></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
             </div>
 
         </section>
@@ -216,55 +271,36 @@
                 <h2 class="text-center text-white">Organisatoren</h2>
                 <p class="lead text-center text-white mb-5">Voor vragen kun je contact op nemen met de volgende personen:</p>
                 <div class="row g-4 text-white">
-                    <div class="col-md-6 col-lg-3">
-                        <div class="card bg-info ">
+                    <div class="col-md-6 col-lg-4">
+                        <div class="card bg-love2 ">
                             <div class="card-body text-center ">
-                                <img src="http://api.randomuser.me/portraits/med/men/1.jpg" class="rounded-circle mb-3" alt="">
+                                <img src="img/igor.png" class="rounded-circle mb-3" alt="">
                                 <h3 class="card-title mb-3">Igor van Duifhuizen</h3>
-                                <p class="card-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Officia facilis 
-                                    dolorem eum eos fuga voluptates.</p>
-                                <a href="#"><i class="bi bi-envelope-fill mx-1 text-white"></i></a>
-                                <a href="#"><i class="bi bi-instagram mx-1 text-white"></i></a>
-                                <a href="#"><i class="bi bi-telephone-fill mx-1 text-white"></i></a>
+                                <p class="card-text">Bruidegom</p>
+                                <p>Email: igorvanduifhuizen@gmail.com</p>
+                                <p>Telefoon: +43 670 6039109</p>
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-6 col-lg-3">
-                        <div class="card bg-info2">
+                    <div class="col-md-6 col-lg-4">
+                        <div class="card bg-love2">
                             <div class="card-body text-center">
-                                <img src="http://api.randomuser.me/portraits/med/women/1.jpg" class="rounded-circle mb-3" alt="">
+                                <img src="img/hannah.png" class="rounded-circle mb-3" alt="">
                                 <h3 class="card-title mb-3">Hannah Schuster</h3>
-                                <p class="card-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Officia facilis 
-                                    dolorem eum eos fuga voluptates.</p>
-                                <a href="#"><i class="bi bi-envelope-fill mx-1 text-white"></i></a>
-                                <a href="#"><i class="bi bi-facebook mx-1 text-white"></i></a>
-                                <a href="#"><i class="bi bi-telephone-fill mx-1 text-white"></i></a>
+                                <p class="card-text">Bruid </p>
+                                <p>Email: hannah.schuster@a1.net</p>
+                                <p>Telefoon: +43 676 5954970</p>
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-6 col-lg-3">
-                        <div class="card bg-info">
+                    <div class="col-md-6 col-lg-4">
+                        <div class="card bg-love2">
                             <div class="card-body text-center">
-                                <img src="http://api.randomuser.me/portraits/med/women/2.jpg" class="rounded-circle mb-3" alt="">
+                                <img src="img/lisa.png" class="rounded-circle mb-3" alt="">
                                 <h3 class="card-title mb-3">Lisa Mauritz</h3>
-                                <p class="card-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Officia facilis 
-                                    dolorem eum eos fuga voluptates.</p>
-                                <a href="#"><i class="bi bi-envelope-fill mx-1 text-white"></i></a>
-                                <a href="#"><i class="bi bi-facebook mx-1 text-white"></i></a>
-                                <a href="#"><i class="bi bi-telephone-fill mx-1 text-white"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-6 col-lg-3">
-                        <div class="card bg-info2">
-                            <div class="card-body text-center">
-                                <img src="http://api.randomuser.me/portraits/med/women/3.jpg" class="rounded-circle mb-3" alt="">
-                                <h3 class="card-title mb-3">Monika Schuster</h3>
-                                <p class="card-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Officia facilis 
-                                    dolorem eum eos fuga voluptates.</p>
-                                <a href="#"><i class="bi bi-envelope-fill mx-1 text-white"></i></a>
-                                <a href="#"><i class="bi bi-facebook mx-1 text-white"></i></a>
-                                <a href="#"><i class="bi bi-telephone-fill mx-1 text-white"></i></a>
+                                <p class="card-text">Beste vriendin en getuigen Hannah</p>
+                                <p>Email: </p>
+                                <p>Telefoon: +43 664 5403632</p>
                             </div>
                         </div>
                     </div>
@@ -275,54 +311,72 @@
         <!-- FAQ -->
         <section id="faq" class="bg-love2 text-light p-5">
             <div class="container">
-                <h2 class="mb-3 text-center">
+                <h2 class="mb-4 text-center">
                     FAQ
                 </h2>
                 <div class="row text-center g-3">
                     <div class="col-md">
-                        <div class="card bg-info text-light">
+                        <div class="card bg-love text-light card-style-faq">
                             <div class="card-body text-center">
                                 <div class="h1 mb-3">
                                     <i class="bi bi-binoculars"></i>
                                 </div>
                                 <h3 class="card-title mb-3">
-                                    Was ist zu tun
+                                    Kinder
                                 </h3>
                                 <p class="card-text">
-                                    Auf diese location ist die Möglichkeit................. 
-                                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Doloremque minima quaerat necessitatibus atque unde corporis?
+                                    Mogen onze kinderen mee?<br>
+                                    <br> Ja, het is geen probleem dat jullie kinderen/baby's meekomen.
                                 </p>
                             </div>
                         </div>
                     </div>
                     <div class="col-md">
-                        <div class="card bg-info2 text-light">
+                        <div class="card bg-love text-light card-style-faq">
                             <div class="card-body text-center">
                                 <div class="h1 mb-3">
                                     <i class="bi bi-house-door"></i>
                                 </div>
                                 <h3 class="card-title mb-3">
-                                    Übernachten
+                                    Foto's
                                 </h3>
                                 <p class="card-text">
-                                    Wenn ihr gern übernachten will haben wir nächste hotels gefunden die ihr buchen könnte..........................
-                                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quia, consequatur? 
+                                    Mogen we tijdens de trouwing foto's maken?<br>
+                                    <br> Nee, wij hebben een fotograaf en videograaf in gehuurd die dit voor ons doet.
+                                    Voor en na de trouwing mogen er zo veel foto's gemaakt worden als jullie willen.<br>
+                                    Deze kunnen jullie later via imiji naar ons uploaden.
                                 </p>
                             </div>
                         </div>
                     </div>
                     <div class="col-md">
-                        <div class="card bg-info text-light">
+                        <div class="card bg-love text-light card-style-faq">
                             <div class="card-body text-center">
                                 <div class="h1 mb-3">
                                     <i class="bi bi-gift"></i>
                                 </div>
                                 <h3 class="card-title mb-3">
-                                    Geschenken
+                                    Wensen
                                 </h3>
                                 <p class="card-text">
-                                    Wenn ihr uns ein Geschenk mit brengen will, bitte wir es kein "echte" Blumen zusein. Auserhalb den wunsch,
-                                    weisen wir nicht was wir willen. Geld ist immer willkommen und gut zu verwenden für z.B. die Hochzeit ;)
+                                    Wat zouden jullie graag willen krijgen?<br>
+                                    <br>Als jullie ons graag iets geven wil dan alstjeblieft geen echte bloemen.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md">
+                        <div class="card bg-love text-light card-style-faq">
+                            <div class="card-body text-center">
+                                <div class="h1 mb-3">
+                                    <i class="bi bi-gift"></i>
+                                </div>
+                                <h3 class="card-title mb-3">
+                                    Dress-code
+                                </h3>
+                                <p class="card-text">
+                                    Is er een dress-code waar we ons aan moeten houden?<br>
+                                    <br>Nee,
                                 </p>
                             </div>
                         </div>
@@ -332,24 +386,31 @@
         </section>
         
         <!-- Sticker schicken für stickermania -->
-        <section id="sticker" class="bg-love2 text-light p-5">
+        <section id="sticker" class="bg-love2 text-light p-5 text-center">
             <div class="container">
-                <h2 class="mb-3 text-center">
+                <h2 class="mb-3">
                     Nog een ding
                 </h2>
+                <p>Wij zouden graag van al onze gasten die komen een foto willen hebben.<br>
+                    Deze kunnen jullie later via de link die hier onder komt uploaden.<br>
+                    Op de bruiloft zullen jullie eruit vinden waarvoor dit was.<br>
+                    <!-- <a class="websiteLink" target="_blank" href="">link</a></p> -->
             </div>
 
         </section>
         
         <!-- Fotos hochladen -->
-        <section id="upload" class="bg-love text-light p-5">
+        <section id="upload" class="bg-love text-light p-5  text-center">
             <div class="container">
-                <h2 class="mb-3 text-center">
+                <h2 class="mb-3">
                     Foto's uploaden
                 </h2>
+                <p>Na onze bruiloft kunnen jullie via Imiji jullie foto's uploaden.<br>
+                Jullie kunnen alvast via deze link een account maken en de app downloaden.<br>
+                <a class="websiteLink" target="_blank" href="https://imiji.app.link/cDjb50Ab0vb">https://imiji.app.link/cDjb50Ab0vb</a></p>
             </div>
-
         </section>
+        
 
         <!-- Footer -->
         <footer class="p-5 bg-love text-white text-center position-relative">
