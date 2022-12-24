@@ -1,4 +1,4 @@
-const imageNames = ['HanorFotoOben.jpg', 'HanorFotoWN.jpg', 'lavendel.jpeg'];
+const imageNames = ['wir.jpg', 'wirKiss.jpg', 'wirSitz.jpg', 'handen.jpg'];
 let currentPic = 1;
 
 showSlides()
@@ -15,11 +15,15 @@ function showSlides() {
             break;
         case 3:
             changeBackground(`img/${imageNames[2]}`);
+            currentPic++;
+            break;
+        case 4:
+            changeBackground(`img/${imageNames[3]}`);
             currentPic = 1;
             break;
         default:
             console.error("Slides not working currentPic: " + currentPic);
-            currentPic++;
+            currentPic = 1;
             break;
     }
     
